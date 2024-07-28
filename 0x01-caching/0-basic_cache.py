@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-BassicCache module
+BassicCache module.
 """
 
 
