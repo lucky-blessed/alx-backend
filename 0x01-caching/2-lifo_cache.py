@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-""" LIFO Cache module
+"""
+LIFO Cache module
 """
 
 
@@ -7,7 +8,8 @@ from base_caching import BaseCaching
 
 
 class LIFOCache(BaseCaching):
-    """ LIFOCache is a caching system that inherits from BaseCaching.
+    """
+    LIFOCache is a caching system that inherits from BaseCaching.
     This caching system discards the item put in the cache
     when the cache reaches its limit.
     """
