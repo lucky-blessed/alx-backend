@@ -34,7 +34,7 @@ class Server:
     def __init__(self):
         self.__dataset = None
 
-    def dataset(self) -> List[List[Any]]:
+    def dataset(self) -> List[List]:
         """
         Cached dataset.
 
@@ -49,7 +49,7 @@ class Server:
 
         return self.__dataset
 
-    def get_page(self, page: int = 1, page_size: int = 10) -> List[List[Any]]:
+    def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
         """
         Get the appropriate page of the dataset.
 
